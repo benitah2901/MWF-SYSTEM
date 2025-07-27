@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sales</title>
+    <link rel="stylesheet" href="css/bootstrap-5.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MWF-SYSTEM</a>
+            <img src="images.css/mwf.png" alt="logo" width="40" height="40" class="d-inline-block align-text-top">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sales.html">sales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suppliers.html">suppliers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sales.html">sales</a></li>
+                            <li><a class="dropdown-item" href="products.html">product</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="suppliers.html">suppliers</a></li>
+                            <li><a class="dropdown-item" href="about.html">about</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <form>
+            <div class="mb-3">
+                <div id="customer details" class="form-text fw-bold text bg-primary">FILL IN THE DETAILS</div>
+                <label for="name of the customer" class="form-label fw-bold">Customer name</label>
+                <input type="text" class="form-control" id="name of the customer"
+                    aria-describedby="enter name of the customer">
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="type of the product" class="form-label fw-bold">Product type</label>
+                <input type="text" class="form-control" id="type of the product">
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="name of the product" class="form-label fw-bold">Product name</label>
+                <input type="text" class="form-control" id="name of the product">
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="quantity of the product bought/sold" class="form-label fw-bold">Quantity</label>
+                <input type="text" class="form-control" id="quantity of the product bought/sold">
+            </div>
+
+
+            <br>
+            <div class="mb-3">
+                <label for="price of the product" class="form-label fw-bold">Price</label>
+                <input type="text" class="form-control" id="price of the product">
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="date" class="form-label fw-bold">Date</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="type of payment" class="form-label fw-bold">Payment</label>
+                <select class="form-select" aria-label="type of payment">
+                    <option selected>select type of payment</option>
+                    <option value="1">cash</option>
+                    <option value="2">cheque</option>
+                    <option value="3">bank overdraft</option>
+                </select>
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="sales agent name" class="form-label fw-bold">Agent name</label>
+                <select class="form-select" aria-label="sales agent name">
+                    <option selected>select sales agent name</option>
+                    <option value="1">Benitah Bueknya</option>
+                    <option value="2">Mukasa Crystal</option>
+                    <option value="3">ladu quincy peace</option>
+                    <option value="4">shafik kintu</option>
+                    <option value="5">kirabo mulungi</option>
+                </select>
+            </div>
+
+            <br>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="transport">
+                <label class="form-check-label fw-bold" for="transport">Include 5% transport fee </label>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary"> Submit Receipt</button>
+        </form>
+    </div>
+    <script src="css/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <br>
+
+    <h4 class="fw-bold ">ALL WOOD AND FURNITURE MUST BE RECORDED BY THE MANAGER BEFORE SALE</h4>
+
+
+
+
+
+</body>
+
+</html>
